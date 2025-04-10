@@ -1,0 +1,110 @@
+/* src/assets/styles/register.css */
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1a3a6e;
+  }
+  
+  .success-message {
+    background-color: #e7f5ea;
+    color: #28a745;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-left: 3px solid #28a745;
+  }
+  
+  .password-strength {
+    margin-top: 6px;
+  }
+  
+  .strength-meter {
+    height: 5px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    margin-top: 5px;
+  }
+  
+  .strength-meter-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.3s ease;
+  }
+  
+  .strength-weak {
+    background-color: #ff4d4d;
+  }
+  
+  .strength-moderate {
+    background-color: #ffa500;
+  }
+  
+  .strength-good {
+    background-color: #2ecc71;
+  }
+  
+  .strength-strong {
+    background-color: #27ae60;
+  }
+  
+  .password-feedback {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #5c6b7a;
+  }
+  
+  .password-match {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .match-success {
+    color: #2ecc71;
+  }
+  
+  .match-error {
+    color: #e74c3c;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .checkbox-group input {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .checkbox-group label {
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  
+  .checkbox-group a {
+    color: #4b7bec;
+    text-decoration: none;
+  }
+  
+  .checkbox-group a:hover {
+    text-decoration: underline;
+  }
+  
+  .register-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-card {
+    width: 450px;
+  }
+  
+  .login-form {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
